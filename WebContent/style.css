@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'PTSerif';
+  src: url('../fonts/PTSerif.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSerif-Italic';
+  src: url('../fonts/PTSerif-Italic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  width: 1440px;
+}
+.header-top {
+  background: #f3f3f3;
+  font-size: 14px;
+  min-height: 42px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-top div {
+  float: left;
+}
+.header-top span {
+  line-height: 40px;
+  letter-spacing: -0.5px;
+}
+.header-top .bold {
+  font-weight: bold;
+  color: #333333;
+  margin-right: 25px;
+  margin-left: 40px;
+}
+.header-top .italic {
+  font-style: italic;
+  color: #999999;
+}
+.header-top ul li {
+  margin-right: 30px;
+}
+.header-top ul li a {
+  line-height: normal;
+  border-bottom: 1px solid rgba(0, 119, 204, 0.3);
+  margin-top: 12px;
+  padding: 0;
+}
+.header-top ul li:last-child {
+  margin-right: 35px;
+}
+.search {
+  margin-top: 10.5px;
+  margin-left: 115px;
+}
+.search button {
+  background: #f3f3f3;
+  border: none;
+}
+.search input[type="text"] {
+  border: none;
+  background: #f3f3f3;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.25);
+  width: 250px;
+}
+.header-middle {
+  min-height: 189px;
+}
+.header-middle img {
+  margin-top: 18px;
+}
+.main_banner {
+  background: url("../images/main-banner@2x.png") no-repeat;
+  min-height: 798px;
+  padding-top: 56px;
+  color: #fff;
+}
+.main_banner span {
+  color: #fff;
+  font-size: 20px;
+  font-family: "PTSerif-Italic", Arial, sans-serif;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.main_banner .big {
+  font-size: 48px;
+  font-family: "PTSerif", Arial, sans-serif;
+  font-style: normal;
+}
+.main-form {
+  margin-top: 75px;
+}
+.main-form form {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 20px 20px 20px 210px;
+}
+.main-form form #instalogin {
+  width: 617px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  padding-left: 14px;
+  border-radius: 3px;
+  font-style: italic;
+  color: #000;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+.main-form form #instalogin ::-webkit-input-placeholder {
+  color: rgba(153, 153, 153, 0.5);
+}
+.main-form form #instalogin ::-moz-placeholder {
+  color: rgba(153, 153, 153, 0.5);
+}
+.main-form form #instalogin :-moz-placeholder {
+  color: rgba(153, 153, 153, 0.5);
+}
+.main-form form #instalogin :-ms-input-placeholder {
+  color: rgba(153, 153, 153, 0.5);
+}
+.main-form form #submit {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 50px;
+  margin-left: 15px;
+  border-radius: 3px;
+  width: 195px;
+}
+.nav.navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar-default {
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  margin: 28px 0 0;
+}
+.navbar-default ul li {
+  margin-right: 47px;
+}
+.navbar-default ul li a {
+  color: #0077cc !important;
+  border-bottom: 1px solid rgba(0, 119, 204, 0.3);
+  padding: 0 0 0;
+}
+.navbar-default ul li:last-child {
+  margin-right: 0;
+}
+.social_icons {
+  margin-top: 25px;
+}
+.social_icons img {
+  margin-right: 12px;
+}
+.content {
+  padding-top: 50px;
+  min-height: 300px;
+}
+.content span {
+  font-family: "PTSerif-Italic", Arial, sans-serif;
+  font-size: 20px;
+  color: #333333;
+}
+.content .select-group {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 40px;
+}
+.content .select-group select {
+  margin-right: 45px;
+  width: 188px;
+  height: 25px;
+}
+.content .select-group select:last-child {
+  margin-right: 0;
+}
